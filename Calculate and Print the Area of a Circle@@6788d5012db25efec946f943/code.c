@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float double radius, area;
+    float radius, area;
     scanf("%lf", &radius);
 
     area = 3.14 * radius * radius;
