@@ -2,7 +2,7 @@
 
 int main() {
     int radius, area;
-    scanf("%d", &radius, &area);
+    scanf("%d %d", &radius &area);
 
     area = PI * radius * radius;
     printf(""Area: %d", area);
