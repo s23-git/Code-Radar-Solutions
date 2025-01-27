@@ -3,9 +3,9 @@
 int main() {
     float f;
 
-    printf("Enter a single floating point number: ");
+    printf("Enter a float: ");
     scanf("%f", &f);
 
-    printf("You entered a single floating point number: %f\n", f);
+    printf("%.2f\n", f);
     return 0;
 }
