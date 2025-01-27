@@ -4,7 +4,7 @@ int main() {
     int radius, area;
     scanf("%d %d", &radius &area);
 
-    area = PI * radius * radius;
+    area = 3.14 * radius * radius;
     printf(""Area: %d", area);
     return 0;
 }
