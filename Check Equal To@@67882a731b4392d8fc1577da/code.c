@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d", &num1, &num2);
     if(num1 == num2){
         printf("True");
-    } else{
+    }else{
         print("False");
     }
     return 0;
