@@ -6,7 +6,7 @@ int main() {
     printf("enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 
-    if(neither num1 && num2 is greater) {
+    if(!(a > 0) && !(b > 0)) {
         printf("True");
     } else{
         printf("False");
