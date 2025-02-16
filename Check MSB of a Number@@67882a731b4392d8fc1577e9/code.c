@@ -5,7 +5,7 @@ int main(){
 
     if(num & (1 >> 32)){
         printf("Set\n");
-    } else{
+    }else{
         print("Not Set\n");
     }
     return 0;
