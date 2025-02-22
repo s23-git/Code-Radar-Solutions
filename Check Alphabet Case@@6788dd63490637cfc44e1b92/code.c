@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
+    
     char ch;
+    printf("Enter a character: ");
     sacnf("%c", &ch);
 
     if(ch >= 'A' && ch <= 'Z'){
