@@ -3,7 +3,7 @@ int main(){
     char ch;
     sacnf("%c", &ch);
 
-    if(ch > 'A' || ch < 'b'){
+    if(ch > 'A-Z' || ch < 'a-z'){
         printf("Uppercase" or "Lowercase");
     }else{
         printf("Not an alphabet");
