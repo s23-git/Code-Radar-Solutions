@@ -2,7 +2,6 @@
 int main(){
 
     char ch;
-    printf("%c\n");
     scanf("%c", &ch);
 
     if(ch >= 'A' && ch <= 'Z'){
