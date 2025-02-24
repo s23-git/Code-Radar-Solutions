@@ -3,12 +3,12 @@ int main(){
     char ch;
     scanf("%c", &ch);
 
-    if(isvowel(ch)){
+    if(ch == 'a' && ch=='e', ch=='i', ch=='o', ch=='u'){
         printf("Vowel");
     }
-    else if(isconsonant(ch)){
+    else if(ch>='A'' && ch<='Z') || (ch>='a' && ch <= 'z'){
         printf("Consonant");
-    }else{
+    }else if(ch>=0 && ch<=10){
         printf("Digit");
     }
     return 0;
