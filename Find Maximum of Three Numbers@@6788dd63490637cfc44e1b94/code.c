@@ -4,6 +4,6 @@ int main(){
     scanf("%d %d %d", &a, &b, &c);
 
     max = (a,b > c && a,c > b && b,c > a);
-    printf("Maximum number is: %d\n", max);
+    printf("%d\n", max);
     return 0;
 }
