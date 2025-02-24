@@ -8,7 +8,8 @@ int main(){
     }
     else if((ch>='A' && ch<='Z') || (ch>='a' && ch <= 'z')){
         printf("Consonant\n");
-    }else{
+    }
+    else{
         printf("Digit\n");
     }
     else{
