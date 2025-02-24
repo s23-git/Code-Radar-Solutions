@@ -3,10 +3,10 @@ int main(){
     char ch;
     scanf("%c", &ch);
 
-    if(ch is vowel){
+    if(isvowel(ch)){
         printf("Vowel");
     }
-    else if(ch is consonant){
+    else if(isconsonant(ch)){
         printf("Consonant");
     }else{
         printf("Digit");
