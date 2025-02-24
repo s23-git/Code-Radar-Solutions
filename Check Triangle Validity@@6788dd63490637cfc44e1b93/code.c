@@ -4,7 +4,7 @@ int main(){
     printf("enter three sides of a triangle: ");
     scanf("%d %d %d, &a, &b, &c");
 
-    if(sides form a triangle){
+    if(a+b > c && a+c > b && b+c > a){
         printf("Valid");
     }else{
         printf(Invalid);
