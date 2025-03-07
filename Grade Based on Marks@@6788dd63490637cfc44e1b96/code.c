@@ -3,7 +3,7 @@ int main(){
     int A, B, C, D, F;
     scanf("%d %d %d %d %d", &A, &B, &C, &D, &F);
 
-    if(>=90){
+    if(A>=90){
         printf("A\n");
     }
     else if(85){
