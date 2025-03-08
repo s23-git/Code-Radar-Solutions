@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n, Freeezing_temperature;
-    scanf("%d ", &n);
+    int Freeezing_temperature;
+    scanf("%d ", &Freeezing_temperature);
 
     if(Freeezing_temperature==0){
         printf("Freezing\n");
