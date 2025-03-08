@@ -6,7 +6,7 @@ int main(){
     if(a!=0 && a%b==0){
         printf("Yes\n");
     } else{
-        printf("No\n")
+        printf("No\n");
     }
     return 0;
 }
