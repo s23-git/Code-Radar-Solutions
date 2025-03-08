@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n=, Freeezing_temperature;
+    int n, Freeezing_temperature;
     scanf("%d ", &n);
 
     if(Freeezing_temperature==0){
