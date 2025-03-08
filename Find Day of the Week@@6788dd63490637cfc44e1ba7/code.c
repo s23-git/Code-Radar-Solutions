@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main(){
     int day;
-
-    printf("1 for monday, 7 for sunday: ");
     scanf("%d", &day);
 
     switch (day) {
