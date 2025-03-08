@@ -5,7 +5,7 @@ int main(){
 
     if(Freeezing_temperature==0){
         printf("Freezing\n");
-    } else{
+    } else if(Freeezing_temperature >=0){
         printf("Above Freezing\n");
     }
     return 0;
