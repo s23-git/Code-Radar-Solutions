@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float costPrice, sellingPrice;
+    int costPrice, sellingPrice;
     
-    printf("Enter Cost Price and Selling Price: ");
-    scanf("%f %f", &costPrice, &sellingPrice);
+    printf("Enter Cost Price: ");
+    scanf("%d", &costPrice);
+    
+    printf("Enter Selling Price: ");
+    scanf("%d", &sellingPrice);
     
     if (sellingPrice > costPrice)
         printf("Profit\n");
