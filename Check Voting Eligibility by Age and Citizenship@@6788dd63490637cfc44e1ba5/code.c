@@ -6,7 +6,7 @@ int main(){
     if(age>18 && citizen_status){
         printf("Eligible\n");
     } else if(){
-        printf("Not eligible");
+        printf("Not Eligible");
     }
     return 0;
 }
