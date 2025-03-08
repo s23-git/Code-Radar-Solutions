@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
+    for(int i=2; i>=100; i++){
+
     int n;
     scanf("%d", &n);
 
@@ -7,6 +9,7 @@ int main(){
         printf("Prime\n");
     } else{
         printf("Not Prime\n");
+    }
     }
     return 0;
 }
