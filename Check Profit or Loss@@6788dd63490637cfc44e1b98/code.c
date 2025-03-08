@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int transaction;
+    int costPrice, sellingPrice;
     
-    scanf("%d", &transaction);
+    // Input: Two space-separated integers
+    scanf("%d %d", &costPrice, &sellingPrice);
     
-    if (transaction > 0) {
+    // Determine the result of the transaction
+    if (sellingPrice > costPrice) {
         printf("Profit\n");
-    } else if (transaction < 0) {
+    } else if (sellingPrice < costPrice) {
         printf("Loss\n");
     } else {
-        printf("No Profit, No Loss\n");
+        printf("No Profit No Loss\n");
     }
 
     return 0;
