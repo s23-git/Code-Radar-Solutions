@@ -5,7 +5,7 @@ int main(){
 
     if(a=b){
         printf("Equal\n");
-    } else if(a>b){
+    } else if(a>=b){
         printf("First\n");
     } else{
         printf("Second\n");
