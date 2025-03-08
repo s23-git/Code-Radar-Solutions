@@ -4,17 +4,18 @@ int main() {
     float costPrice, sellingPrice;
     
     // Input cost price and selling price
-    printf("Enter the Cost Price: ");
+    printf("Enter Cost Price: ");
     scanf("%f", &costPrice);
     
-    printf("Enter the Selling Price: ");
+    printf("Enter Selling Price: ");
     scanf("%f", &sellingPrice);
     
-    // Determine profit, loss, or no profit
-    if (sellingPrice > costPrice) {
-        printf("Profit: %.2f\n", sellingPrice - costPrice);
-    } else if (sellingPrice < costPrice) {
-        printf("Loss: %.2f\n", costPrice - sellingPrice);
+    // Calculate and display result
+    float result = sellingPrice - costPrice;
+    if (result > 0) {
+        printf("Profit: %.2f\n", result);
+    } else if (result < 0) {
+        printf("Loss: %.2f\n", -result);
     } else {
         printf("No Profit, No Loss\n");
     }
