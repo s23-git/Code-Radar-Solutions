@@ -6,7 +6,7 @@ int main(){
     if(a==b || (-a)==(-b)){
         printf("Same Sign\n");
     }
-    elseif{
+    else{
         printf("Different Sign\n");
     }
     return 0;
