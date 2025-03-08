@@ -34,6 +34,10 @@ int main(){
         printf("Sunday\n");
         break;
 
+        default:
+        printf("Not Valid\n");
+        break;
+
     }
     return 0;
 }
