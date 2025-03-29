@@ -1,19 +1,21 @@
 #include <stdio.h>
-void rotate(int arr[], int N, int K, int reverse) {
-    K %= N;  
-    reverse(arr, 0, N - 1);
-    reverse(arr, 0, K - 1);
-    reverse(arr, K, N - 1);
-}
-
-int main() {
-    int N, K;
-    scanf("%d", &N);
+int main(){
     int arr[N];
-    for (int i = 0; i < N; i++) scanf("%d", &arr[i]);
+    int N;
+    int K;
+    printf("%d\n", N);
+    printf("%d\n", K);
+    scanf("%d", &N);
     scanf("%d", &K);
 
-    rotate(arr, N, K);
-    
-    for (int i = 0; i < N; i++) printf("%d ", arr[i]);
+    for(int i=0; i<N; i++){
+        printf("%d\n", arr[i]);
+    }
+    for(int i=0; i<N-i; i++){
+        printf("%d\n", i);
+    }
+    for(int i=0; i<K-i; i++){
+        printf("%d\n", i);
+    }
+    return 0;
 }
