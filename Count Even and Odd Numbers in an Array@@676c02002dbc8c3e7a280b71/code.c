@@ -5,7 +5,7 @@ int main(){
 
     if(arr % 2){
         printf("%d", arr);
-    } else{
+    } else if(arr % 2 != 0){
         printf("%d", arr);
     }
     return 0;
