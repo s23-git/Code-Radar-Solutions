@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int arr[N] = {};
+    int arr[] = {};
     scanf("%d", &arr[N]);
 
     if(arr[N] % 2){
-        printf("%d", arr[N]);
+        printf("%d", arr[]);
     } else{
-        printf("%d", arr[N]);
+        printf("%d", arr[]);
     }
     return 0;
 }
