@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int arr[] = {};
-    scanf("%d", &arr[N]);
+    scanf("%d", &arr[]);
 
     if(arr[N] % 2){
         printf("%d", arr[]);
