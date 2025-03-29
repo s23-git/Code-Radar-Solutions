@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int arr = {};
+    int arr = { };
     scanf("%d", &arr);
 
     if(arr % 2){
