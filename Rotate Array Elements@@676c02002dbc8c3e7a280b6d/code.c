@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotate(int arr[], int N, int K) {
+void rotate(int arr[], int N, int K, int reverse) {
     K %= N;  
     reverse(arr, 0, N - 1);
     reverse(arr, 0, K - 1);
