@@ -3,7 +3,7 @@ int main(){
     int arr[] = {};
     scanf("%d", &arr[]);
 
-    if(arr[N] % 2){
+    if(arr[] % 2){
         printf("%d", arr[]);
     } else{
         printf("%d", arr[]);
