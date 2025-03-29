@@ -7,6 +7,8 @@ int main(){
         printf("even");
     } else if(arr % 2 != 0){
         printf("odd");
+    } else{
+        printf("no");
     }
     return 0;
 }
