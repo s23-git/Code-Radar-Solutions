@@ -1,12 +1,14 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int arr;
     scanf("%d", &arr);
 
-    if(arr % 2){
-        printf("%d\n", arr);
-    } else if(arr % 2 != 0){
-        printf("%d\n", arr);
+    if (arr % 2 != 0) {  // If arr is odd
+        printf("%d is Odd\n", arr);
+    } else {  // If arr is even
+        printf("%d is Even\n", arr);
     } 
+
     return 0;
 }
