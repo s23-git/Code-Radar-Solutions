@@ -1,11 +1,11 @@
 #include<stdio.h>
-    void sort arr(int arr[], int n);
+    void sort(int arr[], int n);
 
     int main(){
         int arr[];
         scanf("%d", arr);
     }
-    void sort arr(int arr[], int n);
+    void sort(int arr[], int n);
     for(int i=0; i<n; i++){
         printf("%d", arr[i]);
         if(array is non-decreasing){
