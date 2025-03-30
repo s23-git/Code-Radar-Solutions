@@ -5,8 +5,8 @@ int main(){
 
     for(int i=1; i<n; i++){
         printf("%d", i);
-        for(int j=n; j<n-i/2; j++){
-            printf("%d\n", j);
+        for(int j=0; j<n-i; j++){
+            printf("%d\n ", j);
         }
     }
     return 0;
